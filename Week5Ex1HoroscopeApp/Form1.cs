@@ -9,7 +9,6 @@ namespace Week5Ex1HoroscopeApp
         {
             InitializeComponent();
             dtpDOB.Format = DateTimePickerFormat.Custom;
-            dtpDOB.CustomFormat = "yyyy-MM-dd";
             cbxDay.SelectedIndex = 0;
             _ = getZodiacSign(dtpDOB.Value);
         }

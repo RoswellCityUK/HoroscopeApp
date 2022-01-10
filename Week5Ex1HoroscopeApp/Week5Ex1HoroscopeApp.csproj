@@ -9,6 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="APIkeys.cs.template" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="APIkeys.cs.template" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="RestSharp" Version="107.0.2" />
   </ItemGroup>
