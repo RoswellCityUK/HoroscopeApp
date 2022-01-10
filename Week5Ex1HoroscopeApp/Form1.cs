@@ -120,8 +120,8 @@ namespace Week5Ex1HoroscopeApp
 
     public class Horoscope
     {
-        public string date_range { get; set; }
-        public string current_date { get; set; }
-        public string description { get; set; }
+        public string? date_range { get; set; }
+        public string? current_date { get; set; }
+        public string? description { get; set; }
     }
 }
